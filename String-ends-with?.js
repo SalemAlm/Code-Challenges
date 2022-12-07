@@ -13,3 +13,9 @@ function solution(str, ending) {
     return starting.endsWith(end) ? true : false;
 
 }
+
+//better solution: 
+
+function solution(str, ending) {
+    return str.endsWith(ending);
+}
