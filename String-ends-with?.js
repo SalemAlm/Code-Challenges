@@ -8,8 +8,8 @@
 //my solution: 
 
 function solution(str, ending) {
-    let starting = str.charAt(str.length - 1)
-    let end = ending.charAt(ending.length - 1)
-    return starting === end ? true : false;
+    let starting = str
+    let end = ending
+    return starting.endsWith(end) ? true : false;
 
 }
