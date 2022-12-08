@@ -14,3 +14,4 @@ function squareDigits(num) {
     }
     return Number(results.join(''));
 };
+
