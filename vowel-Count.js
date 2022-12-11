@@ -5,7 +5,7 @@
 
 // The input string will only consist of lower case letters and/or spaces.
 
-
+//ignore this
 
 //solution
 function getCount(str) {
