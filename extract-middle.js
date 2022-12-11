@@ -25,5 +25,11 @@
 
 //solution
 
-return s.substr(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
+function getMiddle(str) {
+    let half = Math.ceil(str.length / 2 - 1)
+    let endpoint = str.length % 2 === 0 ? 2 : 1
+    return str.substr(half, endpoint)
+}
 
+console.log(getMiddle('jarood'))
+  //output = 'ro'
