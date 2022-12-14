@@ -23,3 +23,4 @@ function cockroachSpeed(s) {
 
 //pseudo code 
 // take s then mutliply by 27.7777 and return the result that is floored 
+
