@@ -35,6 +35,10 @@ var isSquare = function(n){
     else{ return false}
    
   }
+
+
+  //better solution 
+  return Math.sqrt(n) % 1 === 0;
   
   //peramiters 
   //number that is an integer 
